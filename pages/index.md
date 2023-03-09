@@ -49,4 +49,6 @@ pnpm dev
 
 跟随教程. 并开始创作吧 :)
 
+---
+
 由 Q.Ben <sup>QB</sup> (https://qbb.sh) 制作 | [Github](https://github.com/Zhengqbbb) | [Twitter](https://twitter.com/zhengqbbb)
