@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "antfu.iconify",
+    "antfu.unocss",
+    "antfu.vite",
+    "antfu.goto-alias",
+    "csstools.postcss",
+    "dbaeumer.vscode-eslint",
+    "vue.volar",
+    "streetsidesoftware.code-spell-checker",
+    "zokugun.explicit-folding",
+    "AntiAntiSepticeye.vscode-color-picker"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  // use eslint
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": false,
+  "files.associations": {
+    "*.css": "css",
+    ".czrc": "json"
+  },
+  "explicitFolding.rules": {
+    "css": [
+      {
+        "beginRegex": "^\\/\\*\\*\\sSection:?",
+        "endRegex": "^\\/\\*\\*\\sEndSection",
+        "autoFold": true
+      }
+    ],
+    "shellscript": [
+      {
+        "beginRegex": "^\\s*#\\s*Section:?",
+        "endRegex": "^\\s*#\\s*EndSection",
+        "autoFold": true
+      }
+    ]
+  },
+  "cssvar.files": [
+    "src/styles/vars.css"
+  ],
+  "vscode-color-picker.languages": [
+    "yaml",
+    "javascript",
+    "typescript",
+    "vue"
+  ],
+  "cSpell.words": [
+    "'s",
+    "Debi",
+    "demi",
+    "helloworld",
+    "iconify",
+    "intlify",
+    "Luohu",
+    "POSIX",
+    "Qbenben",
+    "Shenzhen",
+    "Vite",
+    "vitejs",
+    "Vitesse",
+    "vitest",
+    "vueuse",
+    "Zheng"
+  ],
+  "cSpell.files": [
+    "pages/**/*"
+  ],
+  "commentTranslate.multiLineMerge": true
+}
