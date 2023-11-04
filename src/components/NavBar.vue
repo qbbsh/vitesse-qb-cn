@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { isClient } from '~/utils'
-import { github, site } from '~/meta'
+import { github, site, sponsor } from '~/meta'
 
 const navbar = ref<HTMLElement | null>(null)
 const isLeave = ref(false)
@@ -62,6 +62,9 @@ if (isClient) {
 
         <a :href="github" target="_blank" title="GitHub" rel="noreferrer">
           <div i-uil-github-alt />
+        </a>
+        <a :href="sponsor" target="_blank" title="Sponsor" rel="noreferrer">
+          <div i-lucide:heart />
         </a>
         <a :href="`${site}/feed.xml`" target="_blank" title="RSS">
           <div i-lucide:rss />
